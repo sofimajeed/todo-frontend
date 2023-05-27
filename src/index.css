@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.app-wrapper{
+    height: 100vh;
+}
+
+.nav-link{
+    padding: 1% 4%;
+    border: 1px solid rgb(163, 157, 157);
+}
+.nav-link button{
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.navbar-wrapper{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.form-wrapper{
+    background-color: rgb(167, 173, 173);
+    width: 20%;
+    margin: 3% auto;
+    border-radius: 8px;
+    padding: 2%;
+}
+form p {
+    color: firebrick;
+}
+.inputs{
+    margin: 4% 0px;
+}
+.inputs input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 3% 1%;
+    border: 1px solid rgb(218, 166, 166);
+}
+.submit-button{
+    padding: 2% 10%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(218, 166, 166);
+}
+.todos-list{
+    border: 1px solid rgb(150, 143, 143);
+    border: 1px solid rgb(150, 143, 143);
+    width: 20%;
+    margin: 2%auto;
+    padding: 1%;
+    background: #fffdfc;
+    border-radius: 8px;
+}
